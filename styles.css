@@ -1,11 +1,9 @@
-/* Reset de márgenes y paddings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales del body */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #121212; /* Fondo oscuro */
@@ -159,31 +157,31 @@ footer {
 /* Estilos responsivos para pantallas pequeñas (teléfonos móviles) */
 @media screen and (max-width: 768px) {
     header h1 {
-        font-size: 2rem;
+        font-size: 2rem;  
     }
 
     header p {
-        font-size: 1rem;
+        font-size: 1rem;  
     }
 
-    nav ul {
-        display: block;
-        text-align: center;
-        margin-top: 20px;
+    h2 {
+        font-size: 1.8rem;
     }
 
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    section {
-        margin: 10px;
-        padding: 30px;
+    .skills-section h3 {
+        font-size: 1.3rem; 
     }
 
     .skills-list li {
-        font-size: 1rem;
+        font-size: 1rem;  
+    }
+
+    .contact-item span {
+        font-size: 1rem;  
+    }
+
+    section {
+        padding: 20px; 
     }
 
     .contact-section {
