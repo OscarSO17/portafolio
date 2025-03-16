@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #121212; /* Fondo oscuro */
-    color: #e0e0e0; /* Texto claro */
+    background-color: #121212; 
+    color: #e0e0e0; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f1c40f; /* Un toque de amarillo al pasar el mouse */
+    color: #f1c40f; 
 }
 
 /* Secciones */
@@ -70,7 +70,7 @@ section {
 }
 
 section:hover {
-    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    transform: translateY(-5px); 
 }
 
 h2 {
@@ -106,7 +106,7 @@ h2 {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #f1c40f; /* Color del punto (puedes cambiarlo) */
+    background-color: #f1c40f; 
     margin-right: 10px;
 }
 
